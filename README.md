@@ -1,4 +1,5 @@
 ## Flask MySQL JSON App
+Sample json files can be found in folder Assignment_Details
 
 #### STEP 1:
 ```
@@ -17,3 +18,7 @@ python3 app.py
 #### STEP 4:
 
 Navigate to http://localhost:8008/
+
+#### Example:
+
+![Example Image](/images/ex.png)
