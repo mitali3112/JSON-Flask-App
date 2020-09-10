@@ -1,0 +1,82 @@
+{
+     "headerfields": {
+          "R5": {
+               "Statement Number: ": [
+                    "120588533",
+                    true
+               ],
+               " Statement Date:": [
+                    "December 3 , 2020",
+                    true
+               ],
+               " TOTAL AMOUNT": [
+                    "INR 23,905.73",
+                    true
+               ],
+               " Service Charges": [
+                    "$256.62",
+                    false
+               ],
+               "Charges": [
+                    "$752.46",
+                    false
+               ],
+               " GST": [
+                    "$96.16",
+                    false
+               ]
+          },
+          "R6": {
+               "Statement Number: ": [
+                    "920589807",
+                    true
+               ],
+               " Statement Date:": [
+                    "March 9 , 2020",
+                    true
+               ],
+               " TOTAL AMOUNT": [
+                    "INR 78,445.00",
+                    true
+               ],
+               " Service Charges": [
+                    "$690.00",
+                    false
+               ],
+               "Charges": [
+                    "$361.00",
+                    false
+               ],
+               " GST": [
+                    "$32.00",
+                    false
+               ]
+          },
+          "R3": {
+               "Statement Number: ": [
+                    "753908533",
+                    true
+               ],
+               " Statement Date:": [
+                    "Oct 21 , 2020",
+                    true
+               ],
+               " TOTAL AMOUNT": [
+                    "INR 3,915.73",
+                    true
+               ],
+               " Service Charges": [
+                    "$654.62",
+                    false
+               ],
+               "Charges": [
+                    "$536.46",
+                    false
+               ],
+               " GST": [
+                    "$84.16",
+                    false
+               ]
+          }
+     }
+}

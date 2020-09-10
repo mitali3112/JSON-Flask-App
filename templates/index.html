@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FLASK SQL APP</title>
+</head>
+
+<body>
+  <div style="background: linear-gradient(to bottom, #33ccff 0%, #ccffcc 100%);">
+    <h3>JSON DATABASE CREATOR</h3 >
+    <h5>CHOOSE THE JSON FILE</h5>
+    <form method="POST" enctype="multipart/form-data">
+      <br>
+      <input type="file" value="Import" name = "file" /><br />
+      <br>
+      <input type="submit">
+    </form>
+    <br>
+    <table>
+
+      <tr>
+        <th>CHARGES</th>
+        <th>GST</th>
+        <th>SERVICE CHARGES</th>
+        <th>STATEMENT DATE</th>
+        <th>STATEMENT NUMBER</th>
+        <th>TOTAL AMOUNT</th>
+      </tr>
+      {% for user in userDetails %}
+    	<tr>
+    		<td>{{user[0]}}</td>
+    		<td>{{user[1]}}</td>
+    		<td>{{user[2]}}</td>
+    		<td>{{user[3]}}</td>
+    		<td>{{user[4]}}</td>
+    		<td>{{user[5]}}</td>
+
+    	</tr>
+    {% endfor %}
+    </table>
+    <style media="screen">
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    </style>
+</body>
+
+</html>
