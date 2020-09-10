@@ -21,4 +21,4 @@ Navigate to http://localhost:8008/
 
 #### Example:
 
-![Example Image](/images/ex.png)
+![Example Image](https://github.com/mitali3112/JSON-Flask-App/blob/master/Images/ex.png)
